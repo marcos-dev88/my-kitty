@@ -18,12 +18,14 @@ $ sudo ln -s /your/kitty/path/kitty.app/bin/kitten /usr/bin/kitten
 ```
 
 2. Install kitty as your new x-terminal-emulator (This way the kitty will be able to see in the next command to choose your default terminal)
+
 OBS.: Debian/Ubuntu
 ```bash
 $ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator `which kitty` 50
 ```
 
 3. Run the command below and type the number that show your kitty
+
 OBS.: Debian/Ubuntu
 ```bash
 $ sudo update-alternatives --config x-terminal-emulator
